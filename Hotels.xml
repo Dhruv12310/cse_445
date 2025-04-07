@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.20">
+<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd"
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -13,7 +12,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.50">
+  <Hotel Rating="3.5">
     <Name>Hilton Garden Inn</Name>
     <Phone>602-222-1111</Phone>
     <Address>
@@ -24,7 +23,7 @@
       <Zip>85003</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.00">
+  <Hotel Rating="4.0">
     <Name>Hyatt Regency</Name>
     <Phone>480-123-4567</Phone>
     <Phone>480-765-4321</Phone>
@@ -36,7 +35,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.80">
+  <Hotel Rating="3.8">
     <Name>Holiday Inn</Name>
     <Phone>480-112-3344</Phone>
     <Address>
@@ -47,7 +46,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.50">
+  <Hotel Rating="4.5">
     <Name>Marriott</Name>
     <Phone>602-555-6789</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -58,7 +57,7 @@
       <Zip>85034</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.10">
+  <Hotel Rating="4.1">
     <Name>Sheraton</Name>
     <Phone>623-333-0001</Phone>
     <Address>
@@ -69,7 +68,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.90">
+  <Hotel Rating="3.9">
     <Name>Best Western</Name>
     <Phone>480-000-1212</Phone>
     <Address>
@@ -80,7 +79,7 @@
       <Zip>85284</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.30">
+  <Hotel Rating="4.3">
     <Name>Fairmont Scottsdale</Name>
     <Phone>602-000-9911</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -91,7 +90,7 @@
       <Zip>85255</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.00">
+  <Hotel Rating="4.0">
     <Name>Aloft Phoenix</Name>
     <Phone>602-000-4444</Phone>
     <Address>
@@ -102,7 +101,7 @@
       <Zip>85034</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.70">
+  <Hotel Rating="3.7">
     <Name>Motel 6</Name>
     <Phone>480-000-3030</Phone>
     <Address>
