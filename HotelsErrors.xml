@@ -41,7 +41,7 @@
     </Address>
   </Hotel>
 
-  <!-- (3) Missing <City> in <Address> -->
+  <!-- (3) Missing <City> in Address -->
   <Hotel Rating="4.50">
     <Name>Marriott</Name>
     <Phone>602-555-6789</Phone>
@@ -54,7 +54,7 @@
     </Address>
   </Hotel>
 
-  <!-- (4) Duplicate <Name> -->
+  <!-- (4) Duplicate <Name> element -->
   <Hotel Rating="4.30">
     <Name>Fairmont Scottsdale</Name>
     <Name>Duplicate Name</Name>
@@ -68,10 +68,10 @@
     </Address>
   </Hotel>
 
-  <!-- (5) Wrong order of elements: <Phone> before <Name> -->
+  <!-- (5) Incorrect element order (Phone before Name) -->
   <Hotel Rating="3.70">
     <Phone>480-000-3030</Phone>
-    <Name>Motel 6</Name> <!-- 👈 Schema expects Name first -->
+    <Name>Motel 6</Name>
     <Address>
       <Number>512</Number>
       <Street>S Mill Ave</Street>
