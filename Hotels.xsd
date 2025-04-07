@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
-  <!-- Allow both Hotels and Hotel as root elements -->
+  <!-- Only Hotels is the root -->
   <xs:element name="Hotels" type="HotelsType"/>
-  <xs:element name="Hotel" type="HotelType"/>
 
   <!-- Hotels contains a list of Hotel -->
   <xs:complexType name="HotelsType">
