@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel>
+  <Hotel Rating="4.20">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <_NearestAirport>Sky Harbor</_NearestAirport>
     </Address>
-    <_Rating>4.20</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.50">
     <Name>Hilton Garden Inn</Name>
     <Phone>602-222-1111</Phone>
     <Address>
@@ -25,23 +23,20 @@
       <State>AZ</State>
       <Zip>85003</Zip>
     </Address>
-    <_Rating>3.50</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.00">
     <Name>Hyatt Regency</Name>
     <Phone>480-123-4567</Phone>
     <Phone>480-765-4321</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Airport">
       <Number>122</Number>
       <Street>East Van Buren St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <_NearestAirport>Phoenix Airport</_NearestAirport>
     </Address>
-    <_Rating>4.00</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.80">
     <Name>Holiday Inn</Name>
     <Phone>480-112-3344</Phone>
     <Address>
@@ -51,22 +46,19 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <_Rating>3.80</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.50">
     <Name>Marriott</Name>
     <Phone>602-555-6789</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>215</Number>
       <Street>S 48th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85034</Zip>
-      <_NearestAirport>Sky Harbor</_NearestAirport>
     </Address>
-    <_Rating>4.50</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.10">
     <Name>Sheraton</Name>
     <Phone>623-333-0001</Phone>
     <Address>
@@ -76,9 +68,8 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <_Rating>4.10</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.90">
     <Name>Best Western</Name>
     <Phone>480-000-1212</Phone>
     <Address>
@@ -88,22 +79,19 @@
       <State>AZ</State>
       <Zip>85284</Zip>
     </Address>
-    <_Rating>3.90</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.30">
     <Name>Fairmont Scottsdale</Name>
     <Phone>602-000-9911</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85255</Zip>
-      <_NearestAirport>Scottsdale Airport</_NearestAirport>
     </Address>
-    <_Rating>4.30</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.00">
     <Name>Aloft Phoenix</Name>
     <Phone>602-000-4444</Phone>
     <Address>
@@ -113,9 +101,8 @@
       <State>AZ</State>
       <Zip>85034</Zip>
     </Address>
-    <_Rating>4.00</_Rating>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.70">
     <Name>Motel 6</Name>
     <Phone>480-000-3030</Phone>
     <Address>
@@ -125,6 +112,5 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <_Rating>3.70</_Rating>
   </Hotel>
 </Hotels>
