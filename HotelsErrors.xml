@@ -2,7 +2,7 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- (1) VALID hotel -->
+  <!-- Valid hotel -->
   <Hotel Rating="4.20">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,7 +16,7 @@
     </Address>
   </Hotel>
 
-  <!-- (2) Missing required attribute "Rating" -->
+  <!-- (1) Missing required attribute "Rating" -->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Phone>602-222-1111</Phone>
@@ -29,7 +29,7 @@
     </Address>
   </Hotel>
 
-  <!-- (3) Missing Phone -->
+  <!-- (2) Missing <Phone> element -->
   <Hotel Rating="4.00">
     <Name>Holiday Inn</Name>
     <Address>
@@ -41,20 +41,20 @@
     </Address>
   </Hotel>
 
-  <!-- (4) Missing required field (City) -->
+  <!-- (3) Missing <City> in <Address> -->
   <Hotel Rating="4.50">
     <Name>Marriott</Name>
     <Phone>602-555-6789</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>215</Number>
       <Street>S 48th St</Street>
-      <!-- City is missing -->
+      <!-- Missing City -->
       <State>AZ</State>
       <Zip>85034</Zip>
     </Address>
   </Hotel>
 
-  <!-- (5) Duplicate Name tag -->
+  <!-- (4) Duplicate <Name> -->
   <Hotel Rating="4.30">
     <Name>Fairmont Scottsdale</Name>
     <Name>Duplicate Name</Name>
@@ -65,6 +65,19 @@
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85255</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (5) Wrong order of elements: <Phone> before <Name> -->
+  <Hotel Rating="3.70">
+    <Phone>480-000-3030</Phone>
+    <Name>Motel 6</Name> <!-- 👈 Schema expects Name first -->
+    <Address>
+      <Number>512</Number>
+      <Street>S Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
     </Address>
   </Hotel>
 
