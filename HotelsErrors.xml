@@ -22,7 +22,7 @@
     <Phone>602-222-1111</Phone>
     <Address>
       <Number>33</Number>
-      <Street>W Madison St</Street>
+      <Street>E Monroe St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85003</Zip>
@@ -32,22 +32,22 @@
   <!-- (2) Missing <Phone> element -->
   <Hotel Rating="4.00">
     <Name>Holiday Inn</Name>
-    <Address>
-      <Number>100</Number>
-      <Street>University Dr</Street>
-      <City>Tempe</City>
+    <Address NearestAirport="Phoenix Airport">
+      <Number>122</Number>
+      <Street>North second St</Street>
+      <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
+      <Zip>85004</Zip>
     </Address>
   </Hotel>
 
   <!-- (3) Missing <City> in Address -->
-  <Hotel Rating="4.50">
-    <Name>Marriott</Name>
-    <Phone>602-555-6789</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>215</Number>
-      <Street>S 48th St</Street>
+   <Hotel Rating="4.2">
+    <Name>Holiday Inn</Name>
+    <Phone>602-453-9900</Phone>
+    <Address>
+      <Number>3401</Number>
+      <Street>E University Dr</Street>
       <!-- Missing City -->
       <State>AZ</State>
       <Zip>85034</Zip>
